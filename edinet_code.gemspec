@@ -20,6 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec"
 
   spec.add_dependency 'selenium-webdriver', '2.40.0'
   spec.add_dependency 'headless', '1.0.1'
