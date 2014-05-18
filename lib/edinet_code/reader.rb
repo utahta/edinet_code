@@ -13,7 +13,7 @@ module EdinetCode
       def initialize(attr={})
         attr.each do |key, value|
           unless PROPERTIES.include?(key)
-            raise EdinetPropertyError, "#{key}: プロパティに存在しない名前です"
+            raise PropertyError, "#{key}: プロパティに存在しない名前です"
           end
           instance_variable_set("@#{key.to_s}", value)
         end
