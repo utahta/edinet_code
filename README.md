@@ -22,12 +22,13 @@ Use headless:
 
 ## Usage
 
-require "edinet_code"
+    require "edinet_code"
 
-EdinetCode.get
-EdinetCode.get(false) # do not use headless
+    EdinetCode.get
 
-EdinetCode.get_code_exists
+    EdinetCode.get(false) # do not use headless
+
+    EdinetCode.get_code_exists
 
 ## Contributing
 
